@@ -121,6 +121,7 @@ body {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .stat-label {
@@ -227,7 +228,7 @@ body {
 
 .service-card:hover {
   transform: translateY(-10px);
-  border-color: var(--service-color, #667eea);
+  border-color: #667eea;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
@@ -606,7 +607,7 @@ body {
   border-right: 3px solid #667eea;
 }
 
-/* أيقونة الروبوت الذكي للواتساب */
+/* WhatsApp Robot Icon */
 .whatsapp-robot {
   position: fixed;
   bottom: 30px;
@@ -742,14 +743,14 @@ body {
   height: 3px;
   background: #667eea;
   border-radius: 50%;
-  animation: pulse 1s ease-in-out infinite;
+  animation: pulseButton 1s ease-in-out infinite;
 }
 
 .robot-button:nth-child(2) {
   animation-delay: 0.5s;
 }
 
-@keyframes pulse {
+@keyframes pulseButton {
   0%, 100% { opacity: 0.5; transform: scale(1); }
   50% { opacity: 1; transform: scale(1.2); }
 }
