@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MedSolutionss/static/css/main.0d8890d9.css",
+    "main.js": "/MedSolutionss/static/js/main.d3b3b434.js",
+    "index.html": "/MedSolutionss/index.html",
+    "main.0d8890d9.css.map": "/MedSolutionss/static/css/main.0d8890d9.css.map",
+    "main.d3b3b434.js.map": "/MedSolutionss/static/js/main.d3b3b434.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d8890d9.css",
+    "static/js/main.d3b3b434.js"
+  ]
+}
